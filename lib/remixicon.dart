@@ -20,6 +20,13 @@ class Remix {
     'user_star_line': Remix.user_star_line,
     'list_check': Remix.list_check,
     'account_circle_line': Remix.account_circle_line,
+
+    'arrow_up_s_line': Remix.arrow_up_s_line,
+    'arrow_right_s_line': Remix.arrow_right_s_line,
+    'arrow_down_s_line': Remix.arrow_down_s_line,
+    'arrow_left_s_line': Remix.arrow_left_s_line,
+    'more_line': Remix.more_line,
+    'more_2_line': Remix.more_2_line
   };
 
   static const _ff = 'Remix';
@@ -56,4 +63,18 @@ class Remix {
       IconData(0xEEBA, fontFamily: _ff, fontPackage: _fp);
   static const IconData account_circle_line =
       IconData(0xEA09, fontFamily: _ff, fontPackage: _fp);
+
+  static const IconData arrow_up_s_line =
+      IconData(0xEA78, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_right_s_line =
+      IconData(0xEA6E, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_down_s_line =
+      IconData(0xEA4E, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_left_s_line =
+      IconData(0xEA64, fontFamily: _ff, fontPackage: _fp);
+  static const IconData more_line =
+      IconData(0xEF79, fontFamily: _ff, fontPackage: _fp);
+  static const IconData more_2_line =
+      IconData(0xEF77, fontFamily: _ff, fontPackage: _fp);
+
 }
