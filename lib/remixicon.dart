@@ -11,6 +11,8 @@ class Remix {
     'arrow_right_s_line': Remix.arrow_right_s_line,
     'arrow_up_s_line': Remix.arrow_up_s_line,
     'bar_chart_2_line': Remix.bar_chart_2_line,
+    'camera_line': Remix.camera_line,
+    'camera_off_line': Remix.camera_off_line,
     'customer_service_2_line': Remix.customer_service_2_line,
     'first_aid_kit_line': Remix.first_aid_kit_line,
     'flashlight_fill': Remix.flashlight_fill,
@@ -39,6 +41,10 @@ class Remix {
   static const _ff = 'Remix';
   static const _fp = 'ensemble_icons';
 
+  static const IconData camera_line =
+      IconData(0xEB31, fontFamily: _ff, fontPackage: _fp);
+  static const IconData camera_off_line =
+      IconData(0xEB33, fontFamily: _ff, fontPackage: _fp);
   static const IconData customer_service_2_line = 
       IconData(0xEC0C, fontFamily: _ff, fontPackage: _fp);
   static const IconData image_2_line =
