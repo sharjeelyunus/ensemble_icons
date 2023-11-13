@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 
 /// this class should be generated
 class Remix {
-
   static final Map<String, IconData> iconMap = {
     'account_circle_line': Remix.account_circle_line,
     'add_circle_line': Remix.add_circle_line,
@@ -36,6 +35,11 @@ class Remix {
     'user_star_line': Remix.user_star_line,
     'user_follow_line': Remix.user_follow_line,
     'verified_badge_line': Remix.verified_badge_line,
+    'verified_badge_fill': Remix.verified_badge_fill,
+    'more_fill': Remix.more_fill,
+    'megaphone_line': Remix.megaphone_line,
+    'pencil_line': Remix.pencil_line,
+    'eye_line': Remix.eye_line,
   };
 
   static const _ff = 'Remix';
@@ -45,7 +49,7 @@ class Remix {
       IconData(0xEB31, fontFamily: _ff, fontPackage: _fp);
   static const IconData camera_off_line =
       IconData(0xEB33, fontFamily: _ff, fontPackage: _fp);
-  static const IconData customer_service_2_line = 
+  static const IconData customer_service_2_line =
       IconData(0xEC0C, fontFamily: _ff, fontPackage: _fp);
   static const IconData image_2_line =
       IconData(0xEE45, fontFamily: _ff, fontPackage: _fp);
@@ -56,7 +60,7 @@ class Remix {
   static const IconData first_aid_kit_line =
       IconData(0xED37, fontFamily: _ff, fontPackage: _fp);
   static const IconData search_line =
-     IconData(0xF0D1, fontFamily: _ff, fontPackage: _fp);
+      IconData(0xF0D1, fontFamily: _ff, fontPackage: _fp);
   static const IconData shield_check_line =
       IconData(0xF100, fontFamily: _ff, fontPackage: _fp);
   static const IconData road_map_line =
@@ -105,4 +109,14 @@ class Remix {
       IconData(0xED3C, fontFamily: _ff, fontPackage: _fp);
   static const IconData verified_badge_line =
       IconData(0xF3E9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData verified_badge_fill =
+      IconData(0xF3E8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData more_fill =
+      IconData(0xEF78, fontFamily: _ff, fontPackage: _fp);
+  static const IconData megaphone_line =
+      IconData(0xF385, fontFamily: _ff, fontPackage: _fp);
+  static const IconData pencil_line =
+      IconData(0xEFE0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData eye_line =
+      IconData(0xECB5, fontFamily: _ff, fontPackage: _fp);
 }
