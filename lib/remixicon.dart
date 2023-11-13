@@ -41,6 +41,7 @@ class Remix {
     'pencil_line': Remix.pencil_line,
     'eye_line': Remix.eye_line,
     'map_pin_line': Remix.map_pin_line,
+    'image_edit_line': Remix.image_edit_line,
   };
 
   static const _ff = 'Remix';
@@ -122,4 +123,6 @@ class Remix {
       IconData(0xECB5, fontFamily: _ff, fontPackage: _fp);
   static const IconData map_pin_line =
       IconData(0xEF14, fontFamily: _ff, fontPackage: _fp);
+  static const IconData image_edit_line =
+      IconData(0xEE49, fontFamily: _ff, fontPackage: _fp);
 }
