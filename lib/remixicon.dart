@@ -40,6 +40,7 @@ class Remix {
     'megaphone_line': Remix.megaphone_line,
     'pencil_line': Remix.pencil_line,
     'eye_line': Remix.eye_line,
+    'map_pin_line': Remix.map_pin_line,
   };
 
   static const _ff = 'Remix';
@@ -119,4 +120,6 @@ class Remix {
       IconData(0xEFE0, fontFamily: _ff, fontPackage: _fp);
   static const IconData eye_line =
       IconData(0xECB5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData map_pin_line =
+      IconData(0xEF14, fontFamily: _ff, fontPackage: _fp);
 }
