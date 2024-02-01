@@ -24,22 +24,28 @@ class Remix {
     'image_edit_line': Remix.image_edit_line,
     'list_check': Remix.list_check,
     'map_pin_line': Remix.map_pin_line,
+    'medal_2_line': Remix.medal_2_line,
     'megaphone_line': Remix.megaphone_line,
     'more_fill': Remix.more_fill,
     'more_line': Remix.more_line,
     'more_2_line': Remix.more_2_line,
     'movie_line': Remix.movie_line,
     'pencil_line': Remix.pencil_line,
+    'qr_code_line': Remix.qr_code_line,
     'questionnaire_line': Remix.questionnaire_line,
     'shield_check_line': Remix.shield_check_line,
     'search_line': Remix.search_line,
     'stack_line': Remix.stack_line,
     'road_map_line': Remix.road_map_line,
+    'team_line': Remix.team_line,
     'thermometer_line': Remix.thermometer_line,
     'time_line': Remix.time_line,
+    'trophy_line': Remix.trophy_line,
+    'twitch_line': Remix.twitch_line,
+    'user_follow_line': Remix.user_follow_line,
     'user_line': Remix.user_line,
     'user_star_line': Remix.user_star_line,
-    'user_follow_line': Remix.user_follow_line,
+    'user_unfollow_line': Remix.user_unfollow_line,
     'verified_badge_fill': Remix.verified_badge_fill,
     'verified_badge_line': Remix.verified_badge_line,
   };
@@ -125,4 +131,16 @@ class Remix {
       IconData(0xEF14, fontFamily: _ff, fontPackage: _fp);
   static const IconData image_edit_line =
       IconData(0xEE49, fontFamily: _ff, fontPackage: _fp);
+  static const IconData medal_2_line =
+      IconData(0xEF26, fontFamily: _ff, fontPackage: _fp);
+  static const IconData qr_code_line =
+      IconData(0xF03D, fontFamily: _ff, fontPackage: _fp);
+  static const IconData team_line =
+      IconData(0xF1EE, fontFamily: _ff, fontPackage: _fp);
+  static const IconData trophy_line =
+      IconData(0xF22F, fontFamily: _ff, fontPackage: _fp);
+  static const IconData twitch_line =
+      IconData(0xF239, fontFamily: _ff, fontPackage: _fp);
+  static const IconData user_unfollow_line =
+      IconData(0xF278, fontFamily: _ff, fontPackage: _fp);
 }
