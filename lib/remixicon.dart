@@ -15,7 +15,6 @@ class Remix {
     'camera_off_line': Remix.camera_off_line,
     'cash_line': Remix.cash_line,
     'close_line': Remix.close_line,
-
     'customer_service_2_line': Remix.customer_service_2_line,
     'eye_line': Remix.eye_line,
     'first_aid_kit_line': Remix.first_aid_kit_line,
