@@ -7,17 +7,22 @@ class Remix {
     'add_circle_line': Remix.add_circle_line,
     'arrow_down_s_line': Remix.arrow_down_s_line,
     'arrow_left_s_line': Remix.arrow_left_s_line,
+    'arrow_right_up_line': Remix.arrow_right_up_line,
     'arrow_right_s_line': Remix.arrow_right_s_line,
     'arrow_up_s_line': Remix.arrow_up_s_line,
     'bar_chart_2_line': Remix.bar_chart_2_line,
     'camera_line': Remix.camera_line,
     'camera_off_line': Remix.camera_off_line,
+    'cash_line': Remix.cash_line,
+    'close_line': Remix.close_line,
+
     'customer_service_2_line': Remix.customer_service_2_line,
     'eye_line': Remix.eye_line,
     'first_aid_kit_line': Remix.first_aid_kit_line,
     'flashlight_fill': Remix.flashlight_fill,
     'focus_3_line': Remix.focus_3_line,
     'group_line': Remix.group_line,
+    'hand_heart_line': Remix.hand_heart_line,
     'home_line': Remix.home_line,
     'home_4_line': Remix.home_4_line,
     'image_2_line': Remix.image_2_line,
@@ -143,4 +148,12 @@ class Remix {
       IconData(0xF239, fontFamily: _ff, fontPackage: _fp);
   static const IconData user_unfollow_line =
       IconData(0xF278, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_right_up_line =
+      IconData(0xEA70, fontFamily: _ff, fontPackage: _fp);
+  static const IconData hand_heart_line =
+      IconData(0xEDF3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData cash_line =
+      IconData(0xF2FB, fontFamily: _ff, fontPackage: _fp);
+  static const IconData close_line =
+      IconData(0xEB99, fontFamily: _ff, fontPackage: _fp);
 }
