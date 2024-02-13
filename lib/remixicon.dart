@@ -11,11 +11,13 @@ class Remix {
     'arrow_right_s_line': Remix.arrow_right_s_line,
     'arrow_up_s_line': Remix.arrow_up_s_line,
     'bar_chart_2_line': Remix.bar_chart_2_line,
+    'book_3_line': Remix.book_3_line,
     'camera_line': Remix.camera_line,
     'camera_off_line': Remix.camera_off_line,
     'cash_line': Remix.cash_line,
     'close_line': Remix.close_line,
     'customer_service_2_line': Remix.customer_service_2_line,
+    'discord_line': Remix.discord_line,
     'eye_line': Remix.eye_line,
     'first_aid_kit_line': Remix.first_aid_kit_line,
     'flashlight_fill': Remix.flashlight_fill,
@@ -30,17 +32,20 @@ class Remix {
     'map_pin_line': Remix.map_pin_line,
     'medal_2_line': Remix.medal_2_line,
     'megaphone_line': Remix.megaphone_line,
+    'mail_send_line': Remix.mail_send_line,
     'more_fill': Remix.more_fill,
     'more_line': Remix.more_line,
     'more_2_line': Remix.more_2_line,
     'movie_line': Remix.movie_line,
     'pencil_line': Remix.pencil_line,
     'qr_code_line': Remix.qr_code_line,
+    'qr_scan_2_line': Remix.qr_scan_2_line,
     'questionnaire_line': Remix.questionnaire_line,
     'shield_check_line': Remix.shield_check_line,
     'search_line': Remix.search_line,
     'stack_line': Remix.stack_line,
     'road_map_line': Remix.road_map_line,
+    'space': Remix.space,
     'team_line': Remix.team_line,
     'thermometer_line': Remix.thermometer_line,
     'time_line': Remix.time_line,
@@ -52,6 +57,7 @@ class Remix {
     'user_unfollow_line': Remix.user_unfollow_line,
     'verified_badge_fill': Remix.verified_badge_fill,
     'verified_badge_line': Remix.verified_badge_line,
+    'youtube_line': Remix.youtube_line,
   };
 
   static const _ff = 'Remix';
@@ -155,4 +161,16 @@ class Remix {
       IconData(0xF2FB, fontFamily: _ff, fontPackage: _fp);
   static const IconData close_line =
       IconData(0xEB99, fontFamily: _ff, fontPackage: _fp);
+  static const IconData discord_line =
+      IconData(0xEC38, fontFamily: _ff, fontPackage: _fp);
+  static const IconData youtube_line =
+      IconData(0xF2D5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData book_3_line =
+      IconData(0xEAD5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData mail_send_line =
+      IconData(0xEEFC, fontFamily: _ff, fontPackage: _fp);
+  static const IconData qr_scan_2_line =
+      IconData(0xF03F, fontFamily: _ff, fontPackage: _fp);
+  static const IconData space =
+      IconData(0xF167, fontFamily: _ff, fontPackage: _fp);
 }
