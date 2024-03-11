@@ -23,8 +23,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
-  font_awesome_flutter: ^10.7.0
+
+  # embed Ensemble as a sibling project
+  ensemble:
+    git:
+      url: https://github.com/sharjeelyunus/ensemble.git
+      ref: main
+  ensemble_ts_interpreter:
+    git:
+      url: https://github.com/EnsembleUI/ensemble_ts_interpreter.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
@@ -44,7 +52,6 @@ flutter:
     - family: Remix
       fonts:
         - asset: fonts/remixicon.ttf
-
 
   # This section identifies your Flutter project as a module meant for
   # embedding in a native host app.  These identifiers should _not_ ordinarily
