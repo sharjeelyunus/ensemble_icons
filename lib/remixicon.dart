@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 /// this class should be generated
+/// Icons based on Remix v4.2.0
 class Remix {
   static final Map<String, IconData> iconMap = {
     'a_b': Remix.a_b,
@@ -210,8 +211,8 @@ class Remix {
     'book_3_line': Remix.book_3_line,
     'book_fill': Remix.book_fill,
     'book_line': Remix.book_line,
-    'book_mark_fill': Remix.book_mark_fill,
-    'book_mark_line': Remix.book_mark_line,
+    'book_marked_fill': Remix.book_marked_fill,
+    'book_marked_line': Remix.book_marked_line,
     'book_open_fill': Remix.book_open_fill,
     'book_open_line': Remix.book_open_line,
     'book_read_fill': Remix.book_read_fill,
@@ -738,8 +739,8 @@ class Remix {
     'file_list_line': Remix.file_list_line,
     'file_lock_fill': Remix.file_lock_fill,
     'file_lock_line': Remix.file_lock_line,
-    'file_mark_fill': Remix.file_mark_fill,
-    'file_mark_line': Remix.file_mark_line,
+    'file_marked_fill': Remix.file_marked_fill,
+    'file_marked_line': Remix.file_marked_line,
     'file_music_fill': Remix.file_music_fill,
     'file_music_line': Remix.file_music_line,
     'file_paper_2_fill': Remix.file_paper_2_fill,
@@ -2196,6 +2197,7 @@ class Remix {
     'windows_line': Remix.windows_line,
     'windy_fill': Remix.windy_fill,
     'wireless_charging_fill': Remix.wireless_charging_fill,
+    'wireless_charging_line': Remix.wireless_charging_line,
     'women_fill': Remix.women_fill,
     'women_line': Remix.women_line,
     'wubi_input': Remix.wubi_input,
@@ -2470,6 +2472,313 @@ class Remix {
     'twitter_x_line': Remix.twitter_x_line,
     'verified_badge_fill': Remix.verified_badge_fill,
     'verified_badge_line': Remix.verified_badge_line,
+    'armchair_fill': Remix.armchair_fill,
+    'armchair_line': Remix.armchair_line,
+    'bnb_fill': Remix.bnb_fill,
+    'bnb_line': Remix.bnb_line,
+    'bread_fill': Remix.bread_fill,
+    'bread_line': Remix.bread_line,
+    'btc_fill': Remix.btc_fill,
+    'btc_line': Remix.btc_line,
+    'calendar_schedule_fill': Remix.calendar_schedule_fill,
+    'calendar_schedule_line': Remix.calendar_schedule_line,
+    'dice_1_fill': Remix.dice_1_fill,
+    'dice_1_line': Remix.dice_1_line,
+    'dice_2_fill': Remix.dice_2_fill,
+    'dice_2_line': Remix.dice_2_line,
+    'dice_3_fill': Remix.dice_3_fill,
+    'dice_3_line': Remix.dice_3_line,
+    'dice_4_fill': Remix.dice_4_fill,
+    'dice_4_line': Remix.dice_4_line,
+    'dice_5_fill': Remix.dice_5_fill,
+    'dice_5_line': Remix.dice_5_line,
+    'dice_6_fill': Remix.dice_6_fill,
+    'dice_6_line': Remix.dice_6_line,
+    'dice_fill': Remix.dice_fill,
+    'dice_line': Remix.dice_line,
+    'drinks_fill': Remix.drinks_fill,
+    'drinks_line': Remix.drinks_line,
+    'equalizer_2_fill': Remix.equalizer_2_fill,
+    'equalizer_2_line': Remix.equalizer_2_line,
+    'equalizer_3_fill': Remix.equalizer_3_fill,
+    'equalizer_3_line': Remix.equalizer_3_line,
+    'eth_fill': Remix.eth_fill,
+    'eth_line': Remix.eth_line,
+    'flower_fill': Remix.flower_fill,
+    'flower_line': Remix.flower_line,
+    'glasses_2_fill': Remix.glasses_2_fill,
+    'glasses_2_line': Remix.glasses_2_line,
+    'glasses_fill': Remix.glasses_fill,
+    'glasses_line': Remix.glasses_line,
+    'goggles_fill': Remix.goggles_fill,
+    'goggles_line': Remix.goggles_line,
+    'image_circle_fill': Remix.image_circle_fill,
+    'image_circle_line': Remix.image_circle_line,
+    'info_i': Remix.info_i,
+    'money_rupee_circle_fill': Remix.money_rupee_circle_fill,
+    'money_rupee_circle_line': Remix.money_rupee_circle_line,
+    'news_fill': Remix.news_fill,
+    'news_line': Remix.news_line,
+    'robot_3_fill': Remix.robot_3_fill,
+    'robot_3_line': Remix.robot_3_line,
+    'share_2_fill': Remix.share_2_fill,
+    'share_2_line': Remix.share_2_line,
+    'sofa_fill': Remix.sofa_fill,
+    'sofa_line': Remix.sofa_line,
+    'svelte_fill': Remix.svelte_fill,
+    'svelte_line': Remix.svelte_line,
+    'vk_fill': Remix.vk_fill,
+    'vk_line': Remix.vk_line,
+    'xrp_fill': Remix.xrp_fill,
+    'xtz_fill': Remix.xtz_fill,
+    'xtz_line': Remix.xtz_line,
+    'archive_stack_fill': Remix.archive_stack_fill,
+    'archive_stack_line': Remix.archive_stack_line,
+    'bowl_fill': Remix.bowl_fill,
+    'bowl_line': Remix.bowl_line,
+    'calendar_view': Remix.calendar_view,
+    'carousel_view': Remix.carousel_view,
+    'code_block': Remix.code_block,
+    'color_filter_fill': Remix.color_filter_fill,
+    'color_filter_line': Remix.color_filter_line,
+    'contacts_book_3_fill': Remix.contacts_book_3_fill,
+    'contacts_book_3_line': Remix.contacts_book_3_line,
+    'contract_fill': Remix.contract_fill,
+    'contract_line': Remix.contract_line,
+    'drinks_2_fill': Remix.drinks_2_fill,
+    'drinks_2_line': Remix.drinks_2_line,
+    'export_fill': Remix.export_fill,
+    'export_line': Remix.export_line,
+    'file_check_fill': Remix.file_check_fill,
+    'file_check_line': Remix.file_check_line,
+    'focus_mode': Remix.focus_mode,
+    'folder_6_fill': Remix.folder_6_fill,
+    'folder_6_line': Remix.folder_6_line,
+    'folder_check_fill': Remix.folder_check_fill,
+    'folder_check_line': Remix.folder_check_line,
+    'folder_close_fill': Remix.folder_close_fill,
+    'folder_close_line': Remix.folder_close_line,
+    'folder_cloud_fill': Remix.folder_cloud_fill,
+    'folder_cloud_line': Remix.folder_cloud_line,
+    'gallery_view_2': Remix.gallery_view_2,
+    'gallery_view': Remix.gallery_view,
+    'hand': Remix.hand,
+    'import_fill': Remix.import_fill,
+    'import_line': Remix.import_line,
+    'information_2_fill': Remix.information_2_fill,
+    'information_2_line': Remix.information_2_line,
+    'kanban_view_2': Remix.kanban_view_2,
+    'kanban_view': Remix.kanban_view,
+    'list_view': Remix.list_view,
+    'lock_star_fill': Remix.lock_star_fill,
+    'lock_star_line': Remix.lock_star_line,
+    'puzzle_2_fill': Remix.puzzle_2_fill,
+    'puzzle_2_line': Remix.puzzle_2_line,
+    'puzzle_fill': Remix.puzzle_fill,
+    'puzzle_line': Remix.puzzle_line,
+    'ram_2_fill': Remix.ram_2_fill,
+    'ram_2_line': Remix.ram_2_line,
+    'ram_fill': Remix.ram_fill,
+    'ram_line': Remix.ram_line,
+    'receipt_fill': Remix.receipt_fill,
+    'receipt_line': Remix.receipt_line,
+    'shadow_fill': Remix.shadow_fill,
+    'shadow_line': Remix.shadow_line,
+    'sidebar_fold_fill': Remix.sidebar_fold_fill,
+    'sidebar_fold_line': Remix.sidebar_fold_line,
+    'sidebar_unfold_fill': Remix.sidebar_unfold_fill,
+    'sidebar_unfold_line': Remix.sidebar_unfold_line,
+    'slideshow_view': Remix.slideshow_view,
+    'sort_alphabet_asc': Remix.sort_alphabet_asc,
+    'sort_alphabet_desc': Remix.sort_alphabet_desc,
+    'sort_number_asc': Remix.sort_number_asc,
+    'sort_number_desc': Remix.sort_number_desc,
+    'stacked_view': Remix.stacked_view,
+    'sticky_note_add_fill': Remix.sticky_note_add_fill,
+    'sticky_note_add_line': Remix.sticky_note_add_line,
+    'swap_2_fill': Remix.swap_2_fill,
+    'swap_2_line': Remix.swap_2_line,
+    'swap_3_fill': Remix.swap_3_fill,
+    'swap_3_line': Remix.swap_3_line,
+    'table_3': Remix.table_3,
+    'table_view': Remix.table_view,
+    'text_block': Remix.text_block,
+    'text_snippet': Remix.text_snippet,
+    'timeline_view': Remix.timeline_view,
+    'blogger_fill': Remix.blogger_fill,
+    'blogger_line': Remix.blogger_line,
+    'chat_thread_fill': Remix.chat_thread_fill,
+    'chat_thread_line': Remix.chat_thread_line,
+    'discount_percent_fill': Remix.discount_percent_fill,
+    'discount_percent_line': Remix.discount_percent_line,
+    'exchange_2_fill': Remix.exchange_2_fill,
+    'exchange_2_line': Remix.exchange_2_line,
+    'git_fork_fill': Remix.git_fork_fill,
+    'git_fork_line': Remix.git_fork_line,
+    'input_field': Remix.input_field,
+    'progress_1_fill': Remix.progress_1_fill,
+    'progress_1_line': Remix.progress_1_line,
+    'progress_2_fill': Remix.progress_2_fill,
+    'progress_2_line': Remix.progress_2_line,
+    'progress_3_fill': Remix.progress_3_fill,
+    'progress_3_line': Remix.progress_3_line,
+    'progress_4_fill': Remix.progress_4_fill,
+    'progress_4_line': Remix.progress_4_line,
+    'progress_5_fill': Remix.progress_5_fill,
+    'progress_5_line': Remix.progress_5_line,
+    'progress_6_fill': Remix.progress_6_fill,
+    'progress_6_line': Remix.progress_6_line,
+    'progress_7_fill': Remix.progress_7_fill,
+    'progress_7_line': Remix.progress_7_line,
+    'progress_8_fill': Remix.progress_8_fill,
+    'progress_8_line': Remix.progress_8_line,
+    'remix_run_fill': Remix.remix_run_fill,
+    'remix_run_line': Remix.remix_run_line,
+    'signpost_fill': Remix.signpost_fill,
+    'signpost_line': Remix.signpost_line,
+    'time_zone_fill': Remix.time_zone_fill,
+    'time_zone_line': Remix.time_zone_line,
+    'arrow_down_wide_fill': Remix.arrow_down_wide_fill,
+    'arrow_left_wide_fill': Remix.arrow_left_wide_fill,
+    'arrow_right_wide_fill': Remix.arrow_right_wide_fill,
+    'arrow_up_wide_fill': Remix.arrow_up_wide_fill,
+    'bluesky_fill': Remix.bluesky_fill,
+    'bluesky_line': Remix.bluesky_line,
+    'expand_height_fill': Remix.expand_height_fill,
+    'expand_height_line': Remix.expand_height_line,
+    'expand_width_fill': Remix.expand_width_fill,
+    'expand_width_line': Remix.expand_width_line,
+    'forward_end_fill': Remix.forward_end_fill,
+    'forward_end_line': Remix.forward_end_line,
+    'forward_end_mini_fill': Remix.forward_end_mini_fill,
+    'forward_end_mini_line': Remix.forward_end_mini_line,
+    'friendica_fill': Remix.friendica_fill,
+    'friendica_line': Remix.friendica_line,
+    'git_pr_draft_fill': Remix.git_pr_draft_fill,
+    'git_pr_draft_line': Remix.git_pr_draft_line,
+    'play_reverse_fill': Remix.play_reverse_fill,
+    'play_reverse_line': Remix.play_reverse_line,
+    'play_reverse_mini_fill': Remix.play_reverse_mini_fill,
+    'play_reverse_mini_line': Remix.play_reverse_mini_line,
+    'rewind_start_fill': Remix.rewind_start_fill,
+    'rewind_start_line': Remix.rewind_start_line,
+    'rewind_start_mini_fill': Remix.rewind_start_mini_fill,
+    'rewind_start_mini_line': Remix.rewind_start_mini_line,
+    'scroll_to_bottom_fill': Remix.scroll_to_bottom_fill,
+    'scroll_to_bottom_line': Remix.scroll_to_bottom_line,
+    'add_large_fill': Remix.add_large_fill,
+    'add_large_line': Remix.add_large_line,
+    'aed_electrodes_fill': Remix.aed_electrodes_fill,
+    'aed_electrodes_line': Remix.aed_electrodes_line,
+    'aed_fill': Remix.aed_fill,
+    'aed_line': Remix.aed_line,
+    'alibaba_cloud_fill': Remix.alibaba_cloud_fill,
+    'alibaba_cloud_line': Remix.alibaba_cloud_line,
+    'align_item_bottom_fill': Remix.align_item_bottom_fill,
+    'align_item_bottom_line': Remix.align_item_bottom_line,
+    'align_item_horizontal_center_fill':
+        Remix.align_item_horizontal_center_fill,
+    'align_item_horizontal_center_line':
+        Remix.align_item_horizontal_center_line,
+    'align_item_left_fill': Remix.align_item_left_fill,
+    'align_item_left_line': Remix.align_item_left_line,
+    'align_item_right_fill': Remix.align_item_right_fill,
+    'align_item_right_line': Remix.align_item_right_line,
+    'align_item_top_fill': Remix.align_item_top_fill,
+    'align_item_top_line': Remix.align_item_top_line,
+    'align_item_vertical_center_fill': Remix.align_item_vertical_center_fill,
+    'align_item_vertical_center_line': Remix.align_item_vertical_center_line,
+    'apps_2_add_fill': Remix.apps_2_add_fill,
+    'apps_2_add_line': Remix.apps_2_add_line,
+    'close_large_fill': Remix.close_large_fill,
+    'collapse_diagonal_2_fill': Remix.collapse_diagonal_2_fill,
+    'collapse_diagonal_2_line': Remix.collapse_diagonal_2_line,
+    'collapse_diagonal_fill': Remix.collapse_diagonal_fill,
+    'collapse_diagonal_line': Remix.collapse_diagonal_line,
+    'dashboard_horizontal_fill': Remix.dashboard_horizontal_fill,
+    'dashboard_horizontal_line': Remix.dashboard_horizontal_line,
+    'expand_diagonal_2_fill': Remix.expand_diagonal_2_fill,
+    'expand_diagonal_2_line': Remix.expand_diagonal_2_line,
+    'expand_diagonal_fill': Remix.expand_diagonal_fill,
+    'expand_diagonal_line': Remix.expand_diagonal_line,
+    'firebase_fill': Remix.firebase_fill,
+    'firebase_line': Remix.firebase_line,
+    'flip_horizontal_2_fill': Remix.flip_horizontal_2_fill,
+    'flip_horizontal_2_line': Remix.flip_horizontal_2_line,
+    'flip_horizontal_fill': Remix.flip_horizontal_fill,
+    'flip_horizontal_line': Remix.flip_horizontal_line,
+    'flip_vertical_2_fill': Remix.flip_vertical_2_fill,
+    'flip_vertical_2_line': Remix.flip_vertical_2_line,
+    'flip_vertical_fill': Remix.flip_vertical_fill,
+    'flip_vertical_line': Remix.flip_vertical_line,
+    'formula': Remix.formula,
+    'function_add_fill': Remix.function_add_fill,
+    'function_add_line': Remix.function_add_line,
+    'goblet_2_fill': Remix.goblet_2_fill,
+    'goblet_2_line': Remix.goblet_2_line,
+    'golf_ball_fill': Remix.golf_ball_fill,
+    'golf_ball_line': Remix.golf_ball_line,
+    'group_3_fill': Remix.group_3_fill,
+    'group_3_line': Remix.group_3_line,
+    'heart_add_2_fill': Remix.heart_add_2_fill,
+    'heart_add_2_line': Remix.heart_add_2_line,
+    'id_card_fill': Remix.id_card_fill,
+    'id_card_line': Remix.id_card_line,
+    'information_off_fill': Remix.information_off_fill,
+    'information_off_line': Remix.information_off_line,
+    'java_fill': Remix.java_fill,
+    'java_line': Remix.java_line,
+    'layout_grid_2_fill': Remix.layout_grid_2_fill,
+    'layout_grid_2_line': Remix.layout_grid_2_line,
+    'layout_horizontal_fill': Remix.layout_horizontal_fill,
+    'layout_horizontal_line': Remix.layout_horizontal_line,
+    'layout_vertical_fill': Remix.layout_vertical_fill,
+    'layout_vertical_line': Remix.layout_vertical_line,
+    'menu_fold_2_fill': Remix.menu_fold_2_fill,
+    'menu_fold_2_line': Remix.menu_fold_2_line,
+    'menu_fold_3_fill': Remix.menu_fold_3_fill,
+    'menu_fold_3_line': Remix.menu_fold_3_line,
+    'menu_fold_4_fill': Remix.menu_fold_4_fill,
+    'menu_fold_4_line': Remix.menu_fold_4_line,
+    'menu_unfold_2_fill': Remix.menu_unfold_2_fill,
+    'menu_unfold_2_line': Remix.menu_unfold_2_line,
+    'menu_unfold_3_fill': Remix.menu_unfold_3_fill,
+    'menu_unfold_3_line': Remix.menu_unfold_3_line,
+    'menu_unfold_4_fill': Remix.menu_unfold_4_fill,
+    'menu_unfold_4_line': Remix.menu_unfold_4_line,
+    'mobile_download_fill': Remix.mobile_download_fill,
+    'mobile_download_line': Remix.mobile_download_line,
+    'nextjs_fill': Remix.nextjs_fill,
+    'nextjs_line': Remix.nextjs_line,
+    'nodejs_fill': Remix.nodejs_fill,
+    'nodejs_line': Remix.nodejs_line,
+    'pause_large_fill': Remix.pause_large_fill,
+    'play_large_fill': Remix.play_large_fill,
+    'play_large_line': Remix.play_large_line,
+    'play_reverse_large_fill': Remix.play_reverse_large_fill,
+    'play_reverse_large_line': Remix.play_reverse_large_line,
+    'police_badge_fill': Remix.police_badge_fill,
+    'police_badge_line': Remix.police_badge_line,
+    'prohibited_2_fill': Remix.prohibited_2_fill,
+    'prohibited_2_line': Remix.prohibited_2_line,
+    'shopping_bag_4_fill': Remix.shopping_bag_4_fill,
+    'shopping_bag_4_line': Remix.shopping_bag_4_line,
+    'snowflake_fill': Remix.snowflake_fill,
+    'square_root': Remix.square_root,
+    'stop_large_fill': Remix.stop_large_fill,
+    'stop_large_line': Remix.stop_large_line,
+    'tailwind_css_fill': Remix.tailwind_css_fill,
+    'tailwind_css_line': Remix.tailwind_css_line,
+    'tooth_fill': Remix.tooth_fill,
+    'tooth_line': Remix.tooth_line,
+    'video_off_fill': Remix.video_off_fill,
+    'video_off_line': Remix.video_off_line,
+    'video_on_fill': Remix.video_on_fill,
+    'video_on_line': Remix.video_on_line,
+    'webhook_fill': Remix.webhook_fill,
+    'webhook_line': Remix.webhook_line,
+    'weight_fill': Remix.weight_fill,
+    'weight_line': Remix.weight_line,
   };
 
   static const _ff = 'Remix';
@@ -2889,9 +3198,9 @@ class Remix {
       IconData(0xead6, fontFamily: _ff, fontPackage: _fp);
   static const IconData book_line =
       IconData(0xead7, fontFamily: _ff, fontPackage: _fp);
-  static const IconData book_mark_fill =
+  static const IconData book_marked_fill =
       IconData(0xead8, fontFamily: _ff, fontPackage: _fp);
-  static const IconData book_mark_line =
+  static const IconData book_marked_line =
       IconData(0xead9, fontFamily: _ff, fontPackage: _fp);
   static const IconData book_open_fill =
       IconData(0xeada, fontFamily: _ff, fontPackage: _fp);
@@ -3945,9 +4254,9 @@ class Remix {
       IconData(0xecf2, fontFamily: _ff, fontPackage: _fp);
   static const IconData file_lock_line =
       IconData(0xecf3, fontFamily: _ff, fontPackage: _fp);
-  static const IconData file_mark_fill =
+  static const IconData file_marked_fill =
       IconData(0xecf4, fontFamily: _ff, fontPackage: _fp);
-  static const IconData file_mark_line =
+  static const IconData file_marked_line =
       IconData(0xecf5, fontFamily: _ff, fontPackage: _fp);
   static const IconData file_music_fill =
       IconData(0xecf6, fontFamily: _ff, fontPackage: _fp);
@@ -6860,6 +7169,8 @@ class Remix {
   static const IconData windy_fill =
       IconData(0xf2ca, fontFamily: _ff, fontPackage: _fp);
   static const IconData wireless_charging_fill =
+      IconData(0xf2cb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData wireless_charging_line =
       IconData(0xf2cc, fontFamily: _ff, fontPackage: _fp);
   static const IconData women_fill =
       IconData(0xf2cd, fontFamily: _ff, fontPackage: _fp);
@@ -7409,4 +7720,614 @@ class Remix {
       IconData(0xf3e8, fontFamily: _ff, fontPackage: _fp);
   static const IconData verified_badge_line =
       IconData(0xf3e9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData armchair_fill =
+      IconData(0xf3ea, fontFamily: _ff, fontPackage: _fp);
+  static const IconData armchair_line =
+      IconData(0xf3eb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bnb_fill =
+      IconData(0xf3ec, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bnb_line =
+      IconData(0xf3ed, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bread_fill =
+      IconData(0xf3ee, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bread_line =
+      IconData(0xf3ef, fontFamily: _ff, fontPackage: _fp);
+  static const IconData btc_fill =
+      IconData(0xf3f0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData btc_line =
+      IconData(0xf3f1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData calendar_schedule_fill =
+      IconData(0xf3f2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData calendar_schedule_line =
+      IconData(0xf3f3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_1_fill =
+      IconData(0xf3f4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_1_line =
+      IconData(0xf3f5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_2_fill =
+      IconData(0xf3f6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_2_line =
+      IconData(0xf3f7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_3_fill =
+      IconData(0xf3f8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_3_line =
+      IconData(0xf3f9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_4_fill =
+      IconData(0xf3fa, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_4_line =
+      IconData(0xf3fb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_5_fill =
+      IconData(0xf3fc, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_5_line =
+      IconData(0xf3fd, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_6_fill =
+      IconData(0xf3fe, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_6_line =
+      IconData(0xf3ff, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_fill =
+      IconData(0xf400, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dice_line =
+      IconData(0xf401, fontFamily: _ff, fontPackage: _fp);
+  static const IconData drinks_fill =
+      IconData(0xf402, fontFamily: _ff, fontPackage: _fp);
+  static const IconData drinks_line =
+      IconData(0xf403, fontFamily: _ff, fontPackage: _fp);
+  static const IconData equalizer_2_fill =
+      IconData(0xf404, fontFamily: _ff, fontPackage: _fp);
+  static const IconData equalizer_2_line =
+      IconData(0xf405, fontFamily: _ff, fontPackage: _fp);
+  static const IconData equalizer_3_fill =
+      IconData(0xf406, fontFamily: _ff, fontPackage: _fp);
+  static const IconData equalizer_3_line =
+      IconData(0xf407, fontFamily: _ff, fontPackage: _fp);
+  static const IconData eth_fill =
+      IconData(0xf408, fontFamily: _ff, fontPackage: _fp);
+  static const IconData eth_line =
+      IconData(0xf409, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flower_fill =
+      IconData(0xf40a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flower_line =
+      IconData(0xf40b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData glasses_2_fill =
+      IconData(0xf40c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData glasses_2_line =
+      IconData(0xf40d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData glasses_fill =
+      IconData(0xf40e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData glasses_line =
+      IconData(0xf40f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData goggles_fill =
+      IconData(0xf410, fontFamily: _ff, fontPackage: _fp);
+  static const IconData goggles_line =
+      IconData(0xf411, fontFamily: _ff, fontPackage: _fp);
+  static const IconData image_circle_fill =
+      IconData(0xf412, fontFamily: _ff, fontPackage: _fp);
+  static const IconData image_circle_line =
+      IconData(0xf413, fontFamily: _ff, fontPackage: _fp);
+  static const IconData info_i =
+      IconData(0xf414, fontFamily: _ff, fontPackage: _fp);
+  static const IconData money_rupee_circle_fill =
+      IconData(0xf415, fontFamily: _ff, fontPackage: _fp);
+  static const IconData money_rupee_circle_line =
+      IconData(0xf416, fontFamily: _ff, fontPackage: _fp);
+  static const IconData news_fill =
+      IconData(0xf417, fontFamily: _ff, fontPackage: _fp);
+  static const IconData news_line =
+      IconData(0xf418, fontFamily: _ff, fontPackage: _fp);
+  static const IconData robot_3_fill =
+      IconData(0xf419, fontFamily: _ff, fontPackage: _fp);
+  static const IconData robot_3_line =
+      IconData(0xf41a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData share_2_fill =
+      IconData(0xf41b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData share_2_line =
+      IconData(0xf41c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sofa_fill =
+      IconData(0xf41d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sofa_line =
+      IconData(0xf41e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData svelte_fill =
+      IconData(0xf41f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData svelte_line =
+      IconData(0xf420, fontFamily: _ff, fontPackage: _fp);
+  static const IconData vk_fill =
+      IconData(0xf421, fontFamily: _ff, fontPackage: _fp);
+  static const IconData vk_line =
+      IconData(0xf422, fontFamily: _ff, fontPackage: _fp);
+  static const IconData xrp_fill =
+      IconData(0xf424, fontFamily: _ff, fontPackage: _fp);
+  static const IconData xtz_fill =
+      IconData(0xf425, fontFamily: _ff, fontPackage: _fp);
+  static const IconData xtz_line =
+      IconData(0xf426, fontFamily: _ff, fontPackage: _fp);
+  static const IconData archive_stack_fill =
+      IconData(0xf427, fontFamily: _ff, fontPackage: _fp);
+  static const IconData archive_stack_line =
+      IconData(0xf428, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bowl_fill =
+      IconData(0xf429, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bowl_line =
+      IconData(0xf42a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData calendar_view =
+      IconData(0xf42b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData carousel_view =
+      IconData(0xf42c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData code_block =
+      IconData(0xf42d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData color_filter_fill =
+      IconData(0xf42e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData color_filter_line =
+      IconData(0xf42f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData contacts_book_3_fill =
+      IconData(0xf430, fontFamily: _ff, fontPackage: _fp);
+  static const IconData contacts_book_3_line =
+      IconData(0xf431, fontFamily: _ff, fontPackage: _fp);
+  static const IconData contract_fill =
+      IconData(0xf432, fontFamily: _ff, fontPackage: _fp);
+  static const IconData contract_line =
+      IconData(0xf433, fontFamily: _ff, fontPackage: _fp);
+  static const IconData drinks_2_fill =
+      IconData(0xf434, fontFamily: _ff, fontPackage: _fp);
+  static const IconData drinks_2_line =
+      IconData(0xf435, fontFamily: _ff, fontPackage: _fp);
+  static const IconData export_fill =
+      IconData(0xf436, fontFamily: _ff, fontPackage: _fp);
+  static const IconData export_line =
+      IconData(0xf437, fontFamily: _ff, fontPackage: _fp);
+  static const IconData file_check_fill =
+      IconData(0xf438, fontFamily: _ff, fontPackage: _fp);
+  static const IconData file_check_line =
+      IconData(0xf439, fontFamily: _ff, fontPackage: _fp);
+  static const IconData focus_mode =
+      IconData(0xf43a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_6_fill =
+      IconData(0xf43b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_6_line =
+      IconData(0xf43c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_check_fill =
+      IconData(0xf43d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_check_line =
+      IconData(0xf43e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_close_fill =
+      IconData(0xf43f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_close_line =
+      IconData(0xf440, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_cloud_fill =
+      IconData(0xf441, fontFamily: _ff, fontPackage: _fp);
+  static const IconData folder_cloud_line =
+      IconData(0xf442, fontFamily: _ff, fontPackage: _fp);
+  static const IconData gallery_view_2 =
+      IconData(0xf443, fontFamily: _ff, fontPackage: _fp);
+  static const IconData gallery_view =
+      IconData(0xf444, fontFamily: _ff, fontPackage: _fp);
+  static const IconData hand =
+      IconData(0xf445, fontFamily: _ff, fontPackage: _fp);
+  static const IconData import_fill =
+      IconData(0xf446, fontFamily: _ff, fontPackage: _fp);
+  static const IconData import_line =
+      IconData(0xf447, fontFamily: _ff, fontPackage: _fp);
+  static const IconData information_2_fill =
+      IconData(0xf448, fontFamily: _ff, fontPackage: _fp);
+  static const IconData information_2_line =
+      IconData(0xf449, fontFamily: _ff, fontPackage: _fp);
+  static const IconData kanban_view_2 =
+      IconData(0xf44a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData kanban_view =
+      IconData(0xf44b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData list_view =
+      IconData(0xf44c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData lock_star_fill =
+      IconData(0xf44d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData lock_star_line =
+      IconData(0xf44e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData puzzle_2_fill =
+      IconData(0xf44f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData puzzle_2_line =
+      IconData(0xf450, fontFamily: _ff, fontPackage: _fp);
+  static const IconData puzzle_fill =
+      IconData(0xf451, fontFamily: _ff, fontPackage: _fp);
+  static const IconData puzzle_line =
+      IconData(0xf452, fontFamily: _ff, fontPackage: _fp);
+  static const IconData ram_2_fill =
+      IconData(0xf453, fontFamily: _ff, fontPackage: _fp);
+  static const IconData ram_2_line =
+      IconData(0xf454, fontFamily: _ff, fontPackage: _fp);
+  static const IconData ram_fill =
+      IconData(0xf455, fontFamily: _ff, fontPackage: _fp);
+  static const IconData ram_line =
+      IconData(0xf456, fontFamily: _ff, fontPackage: _fp);
+  static const IconData receipt_fill =
+      IconData(0xf457, fontFamily: _ff, fontPackage: _fp);
+  static const IconData receipt_line =
+      IconData(0xf458, fontFamily: _ff, fontPackage: _fp);
+  static const IconData shadow_fill =
+      IconData(0xf459, fontFamily: _ff, fontPackage: _fp);
+  static const IconData shadow_line =
+      IconData(0xf45a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sidebar_fold_fill =
+      IconData(0xf45b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sidebar_fold_line =
+      IconData(0xf45c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sidebar_unfold_fill =
+      IconData(0xf45d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sidebar_unfold_line =
+      IconData(0xf45e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData slideshow_view =
+      IconData(0xf45f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sort_alphabet_asc =
+      IconData(0xf460, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sort_alphabet_desc =
+      IconData(0xf461, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sort_number_asc =
+      IconData(0xf462, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sort_number_desc =
+      IconData(0xf463, fontFamily: _ff, fontPackage: _fp);
+  static const IconData stacked_view =
+      IconData(0xf464, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sticky_note_add_fill =
+      IconData(0xf465, fontFamily: _ff, fontPackage: _fp);
+  static const IconData sticky_note_add_line =
+      IconData(0xf466, fontFamily: _ff, fontPackage: _fp);
+  static const IconData swap_2_fill =
+      IconData(0xf467, fontFamily: _ff, fontPackage: _fp);
+  static const IconData swap_2_line =
+      IconData(0xf468, fontFamily: _ff, fontPackage: _fp);
+  static const IconData swap_3_fill =
+      IconData(0xf469, fontFamily: _ff, fontPackage: _fp);
+  static const IconData swap_3_line =
+      IconData(0xf46a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData table_3 =
+      IconData(0xf46b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData table_view =
+      IconData(0xf46c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData text_block =
+      IconData(0xf46d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData text_snippet =
+      IconData(0xf46e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData timeline_view =
+      IconData(0xf46f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData blogger_fill =
+      IconData(0xf470, fontFamily: _ff, fontPackage: _fp);
+  static const IconData blogger_line =
+      IconData(0xf471, fontFamily: _ff, fontPackage: _fp);
+  static const IconData chat_thread_fill =
+      IconData(0xf472, fontFamily: _ff, fontPackage: _fp);
+  static const IconData chat_thread_line =
+      IconData(0xf473, fontFamily: _ff, fontPackage: _fp);
+  static const IconData discount_percent_fill =
+      IconData(0xf474, fontFamily: _ff, fontPackage: _fp);
+  static const IconData discount_percent_line =
+      IconData(0xf475, fontFamily: _ff, fontPackage: _fp);
+  static const IconData exchange_2_fill =
+      IconData(0xf476, fontFamily: _ff, fontPackage: _fp);
+  static const IconData exchange_2_line =
+      IconData(0xf477, fontFamily: _ff, fontPackage: _fp);
+  static const IconData git_fork_fill =
+      IconData(0xf478, fontFamily: _ff, fontPackage: _fp);
+  static const IconData git_fork_line =
+      IconData(0xf479, fontFamily: _ff, fontPackage: _fp);
+  static const IconData input_field =
+      IconData(0xf47a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_1_fill =
+      IconData(0xf47b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_1_line =
+      IconData(0xf47c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_2_fill =
+      IconData(0xf47d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_2_line =
+      IconData(0xf47e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_3_fill =
+      IconData(0xf47f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_3_line =
+      IconData(0xf480, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_4_fill =
+      IconData(0xf481, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_4_line =
+      IconData(0xf482, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_5_fill =
+      IconData(0xf483, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_5_line =
+      IconData(0xf484, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_6_fill =
+      IconData(0xf485, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_6_line =
+      IconData(0xf486, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_7_fill =
+      IconData(0xf487, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_7_line =
+      IconData(0xf488, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_8_fill =
+      IconData(0xf489, fontFamily: _ff, fontPackage: _fp);
+  static const IconData progress_8_line =
+      IconData(0xf48a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData remix_run_fill =
+      IconData(0xf48b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData remix_run_line =
+      IconData(0xf48c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData signpost_fill =
+      IconData(0xf48d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData signpost_line =
+      IconData(0xf48e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData time_zone_fill =
+      IconData(0xf48f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData time_zone_line =
+      IconData(0xf490, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_down_wide_fill =
+      IconData(0xf492, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_left_wide_fill =
+      IconData(0xf494, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_right_wide_fill =
+      IconData(0xf496, fontFamily: _ff, fontPackage: _fp);
+  static const IconData arrow_up_wide_fill =
+      IconData(0xf498, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bluesky_fill =
+      IconData(0xf499, fontFamily: _ff, fontPackage: _fp);
+  static const IconData bluesky_line =
+      IconData(0xf49a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_height_fill =
+      IconData(0xf49b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_height_line =
+      IconData(0xf49c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_width_fill =
+      IconData(0xf49d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_width_line =
+      IconData(0xf49e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData forward_end_fill =
+      IconData(0xf49f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData forward_end_line =
+      IconData(0xf4a0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData forward_end_mini_fill =
+      IconData(0xf4a1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData forward_end_mini_line =
+      IconData(0xf4a2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData friendica_fill =
+      IconData(0xf4a3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData friendica_line =
+      IconData(0xf4a4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData git_pr_draft_fill =
+      IconData(0xf4a5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData git_pr_draft_line =
+      IconData(0xf4a6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_fill =
+      IconData(0xf4a7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_line =
+      IconData(0xf4a8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_mini_fill =
+      IconData(0xf4a9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_mini_line =
+      IconData(0xf4aa, fontFamily: _ff, fontPackage: _fp);
+  static const IconData rewind_start_fill =
+      IconData(0xf4ab, fontFamily: _ff, fontPackage: _fp);
+  static const IconData rewind_start_line =
+      IconData(0xf4ac, fontFamily: _ff, fontPackage: _fp);
+  static const IconData rewind_start_mini_fill =
+      IconData(0xf4ad, fontFamily: _ff, fontPackage: _fp);
+  static const IconData rewind_start_mini_line =
+      IconData(0xf4ae, fontFamily: _ff, fontPackage: _fp);
+  static const IconData scroll_to_bottom_fill =
+      IconData(0xf4af, fontFamily: _ff, fontPackage: _fp);
+  static const IconData scroll_to_bottom_line =
+      IconData(0xf4b0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData add_large_fill =
+      IconData(0xf4b1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData add_large_line =
+      IconData(0xf4b2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData aed_electrodes_fill =
+      IconData(0xf4b3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData aed_electrodes_line =
+      IconData(0xf4b4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData aed_fill =
+      IconData(0xf4b5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData aed_line =
+      IconData(0xf4b6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData alibaba_cloud_fill =
+      IconData(0xf4b7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData alibaba_cloud_line =
+      IconData(0xf4b8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_bottom_fill =
+      IconData(0xf4b9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_bottom_line =
+      IconData(0xf4ba, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_horizontal_center_fill =
+      IconData(0xf4bb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_horizontal_center_line =
+      IconData(0xf4bc, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_left_fill =
+      IconData(0xf4bd, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_left_line =
+      IconData(0xf4be, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_right_fill =
+      IconData(0xf4bf, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_right_line =
+      IconData(0xf4c0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_top_fill =
+      IconData(0xf4c1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_top_line =
+      IconData(0xf4c2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_vertical_center_fill =
+      IconData(0xf4c3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData align_item_vertical_center_line =
+      IconData(0xf4c4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData apps_2_add_fill =
+      IconData(0xf4c5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData apps_2_add_line =
+      IconData(0xf4c6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData close_large_fill =
+      IconData(0xf4c8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData collapse_diagonal_2_fill =
+      IconData(0xf4c9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData collapse_diagonal_2_line =
+      IconData(0xf4ca, fontFamily: _ff, fontPackage: _fp);
+  static const IconData collapse_diagonal_fill =
+      IconData(0xf4cb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData collapse_diagonal_line =
+      IconData(0xf4cc, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dashboard_horizontal_fill =
+      IconData(0xf4cd, fontFamily: _ff, fontPackage: _fp);
+  static const IconData dashboard_horizontal_line =
+      IconData(0xf4ce, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_diagonal_2_fill =
+      IconData(0xf4cf, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_diagonal_2_line =
+      IconData(0xf4d0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_diagonal_fill =
+      IconData(0xf4d1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData expand_diagonal_line =
+      IconData(0xf4d2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData firebase_fill =
+      IconData(0xf4d3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData firebase_line =
+      IconData(0xf4d4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_horizontal_2_fill =
+      IconData(0xf4d5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_horizontal_2_line =
+      IconData(0xf4d6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_horizontal_fill =
+      IconData(0xf4d7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_horizontal_line =
+      IconData(0xf4d8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_vertical_2_fill =
+      IconData(0xf4d9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_vertical_2_line =
+      IconData(0xf4da, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_vertical_fill =
+      IconData(0xf4db, fontFamily: _ff, fontPackage: _fp);
+  static const IconData flip_vertical_line =
+      IconData(0xf4dc, fontFamily: _ff, fontPackage: _fp);
+  static const IconData formula =
+      IconData(0xf4dd, fontFamily: _ff, fontPackage: _fp);
+  static const IconData function_add_fill =
+      IconData(0xf4de, fontFamily: _ff, fontPackage: _fp);
+  static const IconData function_add_line =
+      IconData(0xf4df, fontFamily: _ff, fontPackage: _fp);
+  static const IconData goblet_2_fill =
+      IconData(0xf4e0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData goblet_2_line =
+      IconData(0xf4e1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData golf_ball_fill =
+      IconData(0xf4e2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData golf_ball_line =
+      IconData(0xf4e3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData group_3_fill =
+      IconData(0xf4e4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData group_3_line =
+      IconData(0xf4e5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData heart_add_2_fill =
+      IconData(0xf4e6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData heart_add_2_line =
+      IconData(0xf4e7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData id_card_fill =
+      IconData(0xf4e8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData id_card_line =
+      IconData(0xf4e9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData information_off_fill =
+      IconData(0xf4ea, fontFamily: _ff, fontPackage: _fp);
+  static const IconData information_off_line =
+      IconData(0xf4eb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData java_fill =
+      IconData(0xf4ec, fontFamily: _ff, fontPackage: _fp);
+  static const IconData java_line =
+      IconData(0xf4ed, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_grid_2_fill =
+      IconData(0xf4ee, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_grid_2_line =
+      IconData(0xf4ef, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_horizontal_fill =
+      IconData(0xf4f0, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_horizontal_line =
+      IconData(0xf4f1, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_vertical_fill =
+      IconData(0xf4f2, fontFamily: _ff, fontPackage: _fp);
+  static const IconData layout_vertical_line =
+      IconData(0xf4f3, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_2_fill =
+      IconData(0xf4f4, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_2_line =
+      IconData(0xf4f5, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_3_fill =
+      IconData(0xf4f6, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_3_line =
+      IconData(0xf4f7, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_4_fill =
+      IconData(0xf4f8, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_fold_4_line =
+      IconData(0xf4f9, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_2_fill =
+      IconData(0xf4fa, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_2_line =
+      IconData(0xf4fb, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_3_fill =
+      IconData(0xf4fc, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_3_line =
+      IconData(0xf4fd, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_4_fill =
+      IconData(0xf4fe, fontFamily: _ff, fontPackage: _fp);
+  static const IconData menu_unfold_4_line =
+      IconData(0xf4ff, fontFamily: _ff, fontPackage: _fp);
+  static const IconData mobile_download_fill =
+      IconData(0xf500, fontFamily: _ff, fontPackage: _fp);
+  static const IconData mobile_download_line =
+      IconData(0xf501, fontFamily: _ff, fontPackage: _fp);
+  static const IconData nextjs_fill =
+      IconData(0xf502, fontFamily: _ff, fontPackage: _fp);
+  static const IconData nextjs_line =
+      IconData(0xf503, fontFamily: _ff, fontPackage: _fp);
+  static const IconData nodejs_fill =
+      IconData(0xf504, fontFamily: _ff, fontPackage: _fp);
+  static const IconData nodejs_line =
+      IconData(0xf505, fontFamily: _ff, fontPackage: _fp);
+  static const IconData pause_large_fill =
+      IconData(0xf507, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_large_fill =
+      IconData(0xf508, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_large_line =
+      IconData(0xf509, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_large_fill =
+      IconData(0xf50a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData play_reverse_large_line =
+      IconData(0xf50b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData police_badge_fill =
+      IconData(0xf50c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData police_badge_line =
+      IconData(0xf50d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData prohibited_2_fill =
+      IconData(0xf50e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData prohibited_2_line =
+      IconData(0xf50f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData shopping_bag_4_fill =
+      IconData(0xf510, fontFamily: _ff, fontPackage: _fp);
+  static const IconData shopping_bag_4_line =
+      IconData(0xf511, fontFamily: _ff, fontPackage: _fp);
+  static const IconData snowflake_fill =
+      IconData(0xf513, fontFamily: _ff, fontPackage: _fp);
+  static const IconData square_root =
+      IconData(0xf514, fontFamily: _ff, fontPackage: _fp);
+  static const IconData stop_large_fill =
+      IconData(0xf515, fontFamily: _ff, fontPackage: _fp);
+  static const IconData stop_large_line =
+      IconData(0xf516, fontFamily: _ff, fontPackage: _fp);
+  static const IconData tailwind_css_fill =
+      IconData(0xf517, fontFamily: _ff, fontPackage: _fp);
+  static const IconData tailwind_css_line =
+      IconData(0xf518, fontFamily: _ff, fontPackage: _fp);
+  static const IconData tooth_fill =
+      IconData(0xf519, fontFamily: _ff, fontPackage: _fp);
+  static const IconData tooth_line =
+      IconData(0xf51a, fontFamily: _ff, fontPackage: _fp);
+  static const IconData video_off_fill =
+      IconData(0xf51b, fontFamily: _ff, fontPackage: _fp);
+  static const IconData video_off_line =
+      IconData(0xf51c, fontFamily: _ff, fontPackage: _fp);
+  static const IconData video_on_fill =
+      IconData(0xf51d, fontFamily: _ff, fontPackage: _fp);
+  static const IconData video_on_line =
+      IconData(0xf51e, fontFamily: _ff, fontPackage: _fp);
+  static const IconData webhook_fill =
+      IconData(0xf51f, fontFamily: _ff, fontPackage: _fp);
+  static const IconData webhook_line =
+      IconData(0xf520, fontFamily: _ff, fontPackage: _fp);
+  static const IconData weight_fill =
+      IconData(0xf521, fontFamily: _ff, fontPackage: _fp);
+  static const IconData weight_line =
+      IconData(0xf522, fontFamily: _ff, fontPackage: _fp);
 }
