@@ -27,7 +27,7 @@ dependencies:
   # embed Ensemble as a sibling project
   ensemble:
     git:
-      url: https://github.com/sharjeelyunus/ensemble.git
+      url: https://github.com/EnsembleUI/ensemble.git
       ref: main
   ensemble_ts_interpreter:
     git:
