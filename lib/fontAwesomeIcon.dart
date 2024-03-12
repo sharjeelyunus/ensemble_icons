@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 /// this class should be generated
+/// Icons based on font awesome 6.5.1 & font_awesome_flutter v10.7.0
 class FontAwesome {
   static final Map<String, IconData> iconMap = {
     'zero': FontAwesomeIcons.zero,
@@ -2042,5 +2043,6 @@ class FontAwesome {
     'yoast': FontAwesomeIcons.yoast,
     'youtube': FontAwesomeIcons.youtube,
     'z': FontAwesomeIcons.z,
+    'zhihu': FontAwesomeIcons.zhihu,
   };
 }
