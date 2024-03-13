@@ -26,8 +26,7 @@ To update the icon library follow the documentation in [update folder](/update/)
 
 ### FontAwesome (2024-03-11)
 
-- FontAwesome v6.5.1
-- font_awesome_flutter v10.7.0
+- v6.5.1
   
 ### Material (2024-03-11)
 

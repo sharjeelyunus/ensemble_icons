@@ -23,16 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # embed Ensemble as a sibling project
-  ensemble:
-    git:
-      url: https://github.com/EnsembleUI/ensemble.git
-      ref: main
-  ensemble_ts_interpreter:
-    git:
-      url: https://github.com/EnsembleUI/ensemble_ts_interpreter.git
-      ref: master
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:
